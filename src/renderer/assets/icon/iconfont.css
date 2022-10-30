@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3738537 */
+  src: url("iconfont.ttf?t=1667132984327") format("truetype");
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chat:before {
+  content: "\e65a";
+}
+
+.icon-shoucang:before {
+  content: "\e637";
+}
+
+.icon-tongxunlu:before {
+  content: "\e6ae";
+}
