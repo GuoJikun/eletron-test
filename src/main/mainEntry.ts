@@ -54,7 +54,7 @@ app.whenReady().then(() => {
     config = { ...other, ...config };
 
     if (config.modal === true) {
-      config.parent = win;
+      config.parent = mainWindow;
     }
 
     return {
