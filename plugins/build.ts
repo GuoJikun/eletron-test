@@ -1,5 +1,5 @@
-import path from "path";
-import fs from "fs";
+import path from "node:path";
+import fs from "node:fs";
 
 class BuildObj {
   //编译主进程代码

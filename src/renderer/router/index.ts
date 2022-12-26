@@ -28,6 +28,10 @@ const routes = [
         path: "AccountSetting",
         component: () => import("../window/windowSetting/accountSetting.vue"),
       },
+      {
+        path: "login",
+        component: () => import("../window/windowSetting/login.vue"),
+      },
     ],
   },
   {
